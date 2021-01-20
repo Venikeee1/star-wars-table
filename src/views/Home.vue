@@ -123,12 +123,11 @@ export default Vue.extend(
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     min-height: 100vh;
     background-size: contain;
     background-position: center;
-    padding: 20px 0 100px;
+    padding: 80px 0 100px;
     z-index: 1;
     background: #000;
   }
@@ -143,7 +142,8 @@ export default Vue.extend(
 
   .table {
     margin: 0 auto;
-    max-width: 1400px;
+    max-width: 900px;
+    width: 100%;
   }
 
   .glow {
